@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    width: 1440px;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%)
+}
+
+button {
+    border: none;
+    background: #FFF;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    width: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.banner img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.details {
+    display: grid;
+    grid-gap: 12px 0px;
+    align-items: center;
+    margin: 0px 48px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin-top: 35px;
+}
+
+.summary {
+    text-align:center;
+    margin-bottom: 20px;
+    padding: 0px 28px;
+    line-height: 1.7em;    
+}
+
+.plan-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 4fr 1fr;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    padding: 20px;
+}
+
+.plan-details {
+    display: grid;
+    justify-content: space-around;
+}
+
+.plan-text {
+    display: grid;
+    grid-gap: 5px;
+    margin-left: 15px;
+}
+
+#plan-name {
+    color: hsl(223, 47%, 23%);
+    font-weight: 800;
+}
+
+#plan-change a{
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#plan-change a:hover{
+    color: hsl(240, 100%, 75%);
+    text-decoration: none;
+}
+
+.bt-proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: #FFF;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 15px 0px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0px 20px 20px 0px hsl(240, 100%, 93%);
+}
+
+.bt-proceed:hover {
+    cursor: pointer;
+    background-color: hsl(240, 100%, 75%);
+}
+
+.bt-cancel {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.bt-cancel:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
