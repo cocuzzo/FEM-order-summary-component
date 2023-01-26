@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop screenshot](./design/solution-desktop.png.jpg)
+![Desktop screenshot](./design/solution-desktop.jpg)
 
-![Mobile screenshot](./design/solution-desktop.png.jpg)
+![Mobile screenshot](./design/solution-desktop.jpg)
 
 ### Links
 
