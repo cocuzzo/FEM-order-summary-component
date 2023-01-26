@@ -21,6 +21,7 @@ button {
 }
 
 .container {
+    /* margin: 0; */
     width: 450px;
     position: absolute;
     top: 50%;
@@ -130,13 +131,24 @@ button {
     color: hsl(223, 47%, 23%);
 }
 
-@media (max-width: 375px) {
+/* mobile design */
+@media (max-width: 500px) {
     body {
         background-image: url("images/pattern-background-desktop.svg");
-        background-color: #FF0000;
+        /* background-color: #FF0000; */ /* helpful for debugging */
     }
     .container {
         width: 300px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .details {
+        display: grid;
+        grid-gap: 0px 0px;
+        margin: 0px 16px;
     }
 
 }
