@@ -48,17 +48,19 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- CSS media query
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
+
+CSS grid for layouts
+viewport height & width
+Media queries for desktop & mobile screens
+REM text units for responsiveness
+Hover state
+
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 

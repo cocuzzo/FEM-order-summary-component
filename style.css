@@ -3,13 +3,14 @@
 }
 
 body {
+    width: 1440px;
     background-color: hsl(225, 100%, 94%);
     background-image: url("images/pattern-background-desktop.svg");
-    width: 1440px;
+    background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
-    color: hsl(224, 23%, 55%)
+    color: hsl(224, 23%, 55%);
 }
 
 button {
@@ -21,7 +22,7 @@ button {
 
 .container {
     width: 450px;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,8 +30,8 @@ button {
     justify-content: center;
     align-items: center;
     background: #FFF;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -109,6 +110,7 @@ button {
     text-align: center;
     margin-top: 20px;
     box-shadow: 0px 20px 20px 0px hsl(240, 100%, 93%);
+    transition: background 200ms ease;
 }
 
 .bt-proceed:hover {
@@ -126,4 +128,15 @@ button {
 .bt-cancel:hover {
     cursor: pointer;
     color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 375px) {
+    body {
+        background-image: url("images/pattern-background-desktop.svg");
+        background-color: #FF0000;
+    }
+    .container {
+        width: 300px;
+    }
+
 }
